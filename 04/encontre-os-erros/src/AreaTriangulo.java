@@ -5,10 +5,14 @@ import java.util.Scanner;
 public class AreaTriangulo {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int base = scanner.nextInt();
-        int altura = scanner.nextInt();
+
+        System.out.println("Digite o valor da altura do triângulo: ");
+        double altura = scanner.nextDouble();
+
+        System.out.println("Digite o valor da base do triângulo: ");
+        double base = scanner.nextDouble();
 
         double area = (base * altura) / 2.0;
-        System.out.println(area);
+        System.out.println("A área do triângulo é igual a " + area);
     }
 }
