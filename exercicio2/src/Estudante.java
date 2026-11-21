@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Estudante {
     public static void main(String[] args) {
         int idade = 18;
@@ -23,5 +25,10 @@ public class Estudante {
         System.out.println(nome.charAt(nome.length() - 1));
 
         System.out.println(nome.equals("Tironi"));
+
+        Scanner input = new Scanner(System.in);
+        
+        media = input.nextDouble();
+
     }
 }
